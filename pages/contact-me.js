@@ -1,5 +1,13 @@
-export default function ContactMe(){
+import CSidebar from "../components/layout/cSidebar"
+
+export default function ContactMe (){
  return(
-  <p>Contact me</p>
+  <p>contact me</p>
+ )
+}
+
+ContactMe.getLayout = function getLayout(page){
+ return(
+  <CSidebar>{page}</CSidebar>
  )
 }

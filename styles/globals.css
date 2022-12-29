@@ -1,0 +1,157 @@
+:root {
+  --clr-primary-1: #01080e;
+  --clr-primary-2: #011627;
+  --clr-primary-3: #011221;
+
+  --clr-secondary-1: #607b96;
+  --clr-secondary-2: #3c9d93;
+  --clr-secondary-3: #4d5bce;
+  --clr-secondary-4: #ffffff;
+
+  --clr-accent-1: #fea55f;
+  --clr-accent-2: #43d9ad;
+  --clr-accent-3: #e99287;
+  --clr-accent-4: #c98bdf;
+
+  --clr-lines: #1e2d3d;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+article {
+  display: flex;
+  justify-content: center;
+  height: 90vh;
+  width: 50%;
+  align-items:center;
+}
+
+body {
+  background: #011627;
+  background-repeat: no-repeat;
+  color: var(--clr-secondary-1);
+  border: 1px solid var(--clr-lines);
+  padding-bottom:14px;
+}
+
+.navcenter {
+  height: 5vh;
+  display: flex;
+  border-bottom: 1px solid var(--clr-lines);
+  align-items: center;
+}
+
+.nav-line {
+  height: 5vh;
+  width: 1px;
+  background-color: var(--clr-lines);
+}
+
+.nav-item {
+  text-decoration: none;
+  color: var(--clr-secondary-1);
+  width: 8vw;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-name {
+  padding-left:10px;
+  width: 15vw;
+  align-items: left;
+}
+
+.nav-contact-me {
+  position: absolute;
+  right: 0;
+}
+
+.bh-cm {
+  position: absolute;
+  right: 8vw;
+}
+
+footer {
+  border-top:1px solid var(--clr-lines);
+  width: 100vw;
+  position: absolute;
+  bottom: 2vh;
+  display: flex;
+  align-items: center;
+}
+
+.footer-center{
+  height:2vh;
+  display:flex;
+  align-items:center;
+  padding-top:10px;
+  
+}
+
+.footer-icon {
+  height: 3vh;
+  width: 3vh;
+  color: #1c2b3f;
+}
+
+.github{
+  position:absolute;
+  right:10px;
+}
+
+.github-tag{
+  position:absolute;
+  right:45px;
+}
+
+.fline{
+  margin:0 10px 0;
+  height: 5vh;
+  width: 1px;
+  background-color: var(--clr-lines);
+}
+
+.gitline{
+  position:absolute;
+  right:130px;
+}
+
+.index-info{
+ color:#ffffff
+}
+.index-info h1{
+ font-size :60px;
+}
+.index-info h4{
+ font-size :30px;
+ color:var(--clr-secondary-3);
+ padding-bottom:60px;
+}
+
+.github-link{
+ display:flex;
+ justify-content:space-between;
+}
+
+.s1{
+ color:var(--clr-secondary-1);
+}
+
+.s2{
+ color:var(--clr-secondary-2);
+}
+
+.s3{
+ color:var(--clr-secondary-3);
+}
+
+.a1{
+ color:var(--clr-accent-1)
+}
+
+.index-info p{
+ line-height:30px;
+}
