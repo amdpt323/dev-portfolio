@@ -1,6 +1,6 @@
 export default function Index(){
   return (
-    <article>
+    <article className="index">
       <div className='index-info'>
         <p>Hi all. I am</p>
         <h1>Amandeep Sahoo</h1>
