@@ -12,7 +12,7 @@ export default function cmjs({name , email ,message}) {
           <p className='a3 pr-10'>=</p>
           <p className='s3'>document.querySelector</p>
           <p>{`(`}</p>
-          <p className='a1'>'#sendBtn'</p>
+          <p className='a1'>&apos;#sendBtn&apos;</p>
           <p>{`);`}</p>
         </div>
         <br />
@@ -49,7 +49,7 @@ export default function cmjs({name , email ,message}) {
         <div className='flex'>
           <p className='s3'>button.addEventListner</p>
           <p>{`(`}</p>
-          <p className='a1'>'click'</p>
+          <p className='a1'>&apos;click&apos;</p>
           <p className='pr-10'>{`,  () `}</p>
           <p className='a3 pr-10'>{`=>`}</p>
           <p>{`{`}</p>

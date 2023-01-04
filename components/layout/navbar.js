@@ -20,7 +20,7 @@ const data = [
   },
 ]
 
-export default function navbar() {
+export default function Navbar() {
   const router = useRouter();
   return (
     <header>

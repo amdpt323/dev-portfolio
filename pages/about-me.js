@@ -75,12 +75,12 @@ export default function AboutMe() {
         <div className='text-container'>
           <div className='sl-no'>
             {aboutme.map((item, index) => {
-              return <p>{index + 1}</p>
+              return <p key={index}>{index + 1}</p>
             })}
           </div>
           <div className='text'>
             {aboutme.map((item, index) => {
-              return <p>{item.data}</p>
+              return <p key={index}>{item.data}</p>
             })}
           </div>
           <div className='am-scroll'>
