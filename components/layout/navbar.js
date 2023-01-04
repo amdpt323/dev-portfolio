@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { useRouter } from 'next/router'
 
 const data = [
   {
@@ -20,6 +21,7 @@ const data = [
 ]
 
 export default function navbar() {
+  const router = useRouter();
   return (
     <header>
       <div className='navcenter'>
@@ -30,7 +32,7 @@ export default function navbar() {
             <>
               <div className='nav-line' />
               <Link href={url} className={`nav-${name.split('_')[1]} nav-item`}>
-                <p>{name}</p>
+                <p className={router.pathname==url ? 'active' : ''}>{name}</p>
               </Link>
             </>
           )
